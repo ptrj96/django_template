@@ -52,7 +52,7 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = "django_template.urls"
 
-TEMPLATES = [
+TEMPLATES: list[dict[str, str | bool | dict[str, list[str]] | list[str]]] = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
         "DIRS": [],

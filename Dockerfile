@@ -1,4 +1,4 @@
-FROM  tiangolo/uwsgi-nginx-flask:python3.9 as base
+FROM  tiangolo/uwsgi-nginx-flask:python3.10 as base
 
 ENV LANG C.UTF-8
 ENV LC_ALL C.UTF-8
